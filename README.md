@@ -1,5 +1,7 @@
 # assistant-ui ignores `toolMetadata.app` from `@ai-sdk/mcp`
 
+Upstream issue: https://github.com/assistant-ui/assistant-ui/issues/8783
+
 Minimal reproduction for `@assistant-ui/ai-sdk`.  The fixture MCP server runs over **stdio**, spawned by the repro,
 and the model is the AI SDK's `MockLanguageModelV4`, so there are no ports, keys or network calls.
 
