@@ -1,0 +1,17 @@
+{
+  "name": "assistant-ui-mcp-app-toolmetadata-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node probe.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/mcp": "2.0.66",
+    "@assistant-ui/ai-sdk": "0.0.9",
+    "@modelcontextprotocol/sdk": "1.32.0",
+    "ai": "7.0.127",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  }
+}
